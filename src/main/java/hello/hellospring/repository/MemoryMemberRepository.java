@@ -5,8 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-//@Repository -> @Component이 등록 되어있다.
-@Repository
+
 public class MemoryMemberRepository implements MemberRepository {
 
     // 실무에서는 동시성 문제가 발생할 수 있어서 HashMap보다는 ConCurrentHashMap을 자주사용
